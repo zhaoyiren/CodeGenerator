@@ -16,13 +16,13 @@ import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-import com.xy.controller.base.BaseController;
-import com.xy.entity.Page;
-import com.xy.util.AppUtil;
-import com.xy.util.ObjectExcelView;
-import com.xy.util.PageData;
-import com.xy.util.Jurisdiction;
-import com.xy.service.${packageName}.${objectNameLower}.${objectName}Manager;
+import com.xiongyi.controller.base.BaseController;
+import com.xiongyi.entity.Page;
+import com.xiongyi.util.AppUtil;
+import com.xiongyi.util.ObjectExcelView;
+import com.xiongyi.util.PageData;
+import com.xiongyi.util.Jurisdiction;
+import com.xiongyi.service.${packageName}.${objectNameLower}.${objectName}Manager;
 
 /** 
  * 说明：${TITLE}
