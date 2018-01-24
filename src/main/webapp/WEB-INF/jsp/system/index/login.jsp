@@ -78,7 +78,7 @@
 			</form>
 			<div class="controls">
 				<div class="main_input_box">
-					<font color="white"><span id="nameerr">Copyright © xiongyi 2018</span></font>
+					<font color="white"><span id="nameerr">Copyright © XiongYi 2018</span></font>
 				</div>
 			</div>
 		</div>
