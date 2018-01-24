@@ -1,8 +1,8 @@
-package com.xy.service.${packageName}.${objectNameLower};
+package com.xiongyi.service.${packageName}.${objectNameLower};
 
 import java.util.List;
-import com.xy.entity.Page;
-import com.xy.util.PageData;
+import com.xiongyi.entity.Page;
+import com.xiongyi.util.PageData;
 
 /** 
  * 说明： ${TITLE}接口

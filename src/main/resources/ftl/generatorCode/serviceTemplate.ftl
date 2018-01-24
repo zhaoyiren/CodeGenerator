@@ -1,12 +1,12 @@
-package com.xy.service.${packageName}.${objectNameLower}.impl;
+package com.xiongyi.service.${packageName}.${objectNameLower}.impl;
 
 import java.util.List;
 import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
-import com.xy.dao.DaoSupport;
-import com.xy.entity.Page;
-import com.xy.util.PageData;
-import com.xy.service.${packageName}.${objectNameLower}.${objectName}Manager;
+import com.xiongyi.dao.DaoSupport;
+import com.xiongyi.entity.Page;
+import com.xiongyi.util.PageData;
+import com.xiongyi.service.${packageName}.${objectNameLower}.${objectName}Manager;
 
 /** 
  * 说明： ${TITLE}
