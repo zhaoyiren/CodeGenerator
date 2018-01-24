@@ -133,12 +133,13 @@ function readFhsms(){
 }
 
 //修改个人资料
-function editUserH(){
+function editUserH(userid){
+	 var userId = userid;
 	 jzts();
 	 var diag = new top.Dialog();
 	 diag.Drag=true;
 	 diag.Title ="个人资料";
-	 diag.URL = locat+'/user/goEditU.do?USER_ID='+USER_ID+'&fx=head';
+	 diag.URL = locat+'/user/goEditU.do?USER_ID='+userId+'&fx=head';
 	 diag.Width = 469;
 	 diag.Height = 469;
 	 diag.CancelEvent = function(){ //关闭事件
