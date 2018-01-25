@@ -136,6 +136,9 @@ public class CreateCodeController extends BaseController {
 		
 		/*生成manager*/
 		Freemarker.printFile("managerTemplate.ftl", root, "service/"+packageName+"/"+objectName.toLowerCase()+"/"+objectName+"Manager.java", filePath, ftlPath);
+		
+		/*生成entity*/
+		Freemarker.printFile("entityTemplate.ftl", root, "entity/"+packageName+"/"+objectName.toLowerCase()+"/"+objectName+".java", filePath, ftlPath);
 
 		/*生成mybatis xml*/
 		Freemarker.printFile("mapperMysqlTemplate.ftl", root, "mybatis_mysql/"+packageName+"/"+objectName+"Mapper.xml", filePath, ftlPath);
