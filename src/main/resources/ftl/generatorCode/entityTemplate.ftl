@@ -20,7 +20,7 @@ package com.xiongyi.entity.${packageName}.${objectNameLower};
 	public void set${var[0]}(String ${var[0]}) {
 		this.${var[0]} = ${var[0]};
 	}
-		</#if>
+
 	</#list>
  
  }
